@@ -1,6 +1,11 @@
 import React from 'react';
 import ServicesFeatureSection from '../components/Cards/ServicesFeatureSection';
 import EcosystemHub from '../components/Cards/EcoSystemHub';
+import solarImage1 from '../assets/images/Solar1.jpg';
+import solarImage2 from '../assets/images/Solar2.jpg';
+import transformerImage from '../assets/images/transformer.jpg';
+import powerSupplyImg from '../assets/images/powerSupply.jpg';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -14,11 +19,12 @@ const Home = () => {
                 <p className="text-gray-500 text-lg mb-8">Green Raven supports the energy production industry as a central hub—primarily in commercial solar, while also supporting geothermal, generators, and other power solutions. We help customers execute projects by providing.</p>
 
                 <div className="flex space-x-4 mb-20">
-                    <button className="bg-[#cc0033] text-white px-8 py-3 text-sm font-bold uppercase tracking-wide hover:bg-red-800 transition-colors">
-                        Get a quote
-                    </button>
+                    <a target='_blank' href='https://calendar.app.google/9qsvNemHcAkYwesn9
+'><button className="bg-[#cc0033] text-white px-8 py-3 text-sm font-bold uppercase tracking-wide hover:bg-red-800 transition-colors cursor-pointer">
+                        Contact Us
+                    </button></a>
                     <button className="bg-[#5c6670] text-white px-8 py-3 text-sm font-bold uppercase tracking-wide hover:bg-gray-700 transition-colors">
-                        Build My Door
+                        Products & Services
                     </button>
                 </div>
 
@@ -27,21 +33,21 @@ const Home = () => {
                     {/* Item 1 - Small House */}
                     <div className="col-span-12 md:col-span-2 relative top-[-40px]">
                         <div className="w-full h-40 bg-gray-200 overflow-hidden shadow-sm">
-                            <img src="https://images.unsplash.com/photo-1595156641528-569d3000a6c6?q=80&w=600&auto=format&fit=crop" alt="Small Garage" className="w-full h-full object-cover" />
+                            <img src={solarImage1} alt="Small Garage" className="w-full h-full object-cover" />
                         </div>
                     </div>
 
                     {/* Item 2 - Kids playing */}
                     <div className="col-span-12 md:col-span-5">
                         <div className="w-full h-96 bg-gray-200 overflow-hidden shadow-sm">
-                            <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=800&auto=format&fit=crop" alt="Kids playing" className="w-full h-full object-cover" />
+                            <img src={solarImage2} alt="Kids playing" className="w-full h-full object-cover" />
                         </div>
                     </div>
 
                     {/* Item 3 - Firehouse / Commercial */}
                     <div className="col-span-12 md:col-span-3 relative">
                         <div className="w-full h-64 bg-gray-200 overflow-hidden shadow-sm mb-12">
-                            <img src="https://images.unsplash.com/photo-1549419163-9529b552fa8e?q=80&w=600&auto=format&fit=crop" alt="Glass Door" className="w-full h-full object-cover" />
+                            <img src={transformerImage} alt="Glass Door" className="w-full h-full object-cover" />
                         </div>
                         {/* Handwriting Text */}
                         <div className="absolute -bottom-8 -left-10 text-red-700 font-handwriting rotate-[-5deg] text-center w-40">
@@ -56,14 +62,14 @@ const Home = () => {
                     {/* Item 4 - Close up wood */}
                     <div className="col-span-12 md:col-span-2">
                         <div className="w-full h-80 bg-gray-200 overflow-hidden shadow-sm">
-                            <img src="https://images.unsplash.com/photo-1517646287309-48b9f7248e9d?q=80&w=600&auto=format&fit=crop" alt="Wood Detail" className="w-full h-full object-cover" />
+                            <img src={powerSupplyImg} alt="Wood Detail" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
             </div>
 
             <ServicesFeatureSection/>
-            {/* <EcosystemHub/> */}
+            <EcosystemHub/>
 
             {/* Dark Section */}
                    </div>

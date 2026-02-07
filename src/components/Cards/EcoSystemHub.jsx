@@ -1,46 +1,26 @@
-import { Factory, Users, CreditCard, FileCheck, Wrench, Leaf, Briefcase } from "lucide-react";
+import {
+  Factory,
+  Users,
+  CreditCard,
+  FileCheck,
+  Wrench,
+  Leaf,
+  Briefcase,
+} from "lucide-react";
+
+const items = [
+  { title: "Sales Organizations", icon: Briefcase, color: "bg-blue-500", pos: "top-0 left-1/2 -translate-x-1/2" },
+  { title: "Finance Tools", icon: CreditCard, color: "bg-indigo-500", pos: "top-1/4 right-0" },
+  { title: "Permit-Ready Engineering", icon: FileCheck, color: "bg-emerald-500", pos: "bottom-1/4 right-0" },
+  { title: "Installers", icon: Wrench, color: "bg-orange-500", pos: "bottom-0 left-1/2 -translate-x-1/2" },
+  { title: "Prevailing Wage Consulting", icon: Users, color: "bg-purple-500", pos: "bottom-1/4 left-0" },
+  { title: "Hardware Direct", icon: Factory, color: "bg-slate-600", pos: "top-1/4 left-0" },
+  { title: "Geothermal Solutions", icon: Leaf, color: "bg-green-600", pos: "top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden" },
+];
 
 export default function EcosystemHub() {
-  const items = [
-    {
-      title: "Sales Organizations",
-      icon: Briefcase,
-      color: "bg-blue-500",
-    },
-    {
-      title: "Finance Tools (Commercial & Residential)",
-      icon: CreditCard,
-      color: "bg-indigo-500",
-    },
-    {
-      title: "Permit-Ready Commercial Engineering",
-      icon: FileCheck,
-      color: "bg-emerald-500",
-    },
-    {
-      title: "Installers",
-      icon: Wrench,
-      color: "bg-orange-500",
-    },
-    {
-      title: "Prevailing Wage Consulting",
-      icon: Users,
-      color: "bg-purple-500",
-    },
-    {
-      title: "Hardware Direct from Manufacturer",
-      icon: Factory,
-      color: "bg-slate-600",
-    },
-    {
-      title: "Geothermal Solutions",
-      icon: Leaf,
-      color: "bg-green-600",
-    },
-  ];
-
   return (
-    <section className="w-full bg-gradient-to-b from-slate-50 to-white py-20 px-4">
+    <section className="bg-slate-50 py-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -48,45 +28,43 @@ export default function EcosystemHub() {
             The Green Raven Ecosystem
           </h2>
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-            A centralized platform connecting sales, hardware, installers,
-            engineering, and financing to deliver commercial projects end-to-end.
+            Connecting sales, hardware, installers, engineering, and financing
+            into one unified platform.
           </p>
         </div>
 
-        {/* Hub Layout */}
-        <div className="relative flex items-center justify-center">
-          {/* Center Node */}
-          <div className="z-10 flex flex-col items-center justify-center h-40 w-40 rounded-full bg-slate-900 text-white shadow-xl">
+        {/* DESKTOP RADIAL HUB */}
+        <div className="relative hidden md:flex items-center justify-center h-[520px]">
+          {/* Center */}
+          <div className="z-10 h-40 w-40 rounded-full bg-slate-900 text-white flex flex-col items-center justify-center shadow-xl">
             <span className="text-lg font-semibold">Green Raven</span>
-            <span className="text-xs text-slate-300 mt-1">Project Hub</span>
+            <span className="text-xs text-slate-300">Project Hub</span>
           </div>
 
-          {/* Orbit Items */}
-          <div className="absolute inset-0 grid grid-cols-2 md:grid-cols-3 gap-8 place-items-center">
-            {items.map((item, idx) => (
+          {/* Orbit items */}
+          {items.map((item, i) => (
+            <div
+              key={i}
+              className={`absolute ${item.pos} flex flex-col items-center text-center w-32`}
+            >
               <div
-                key={idx}
-                className="flex flex-col items-center text-center max-w-[140px]"
+                className={`h-14 w-14 rounded-full ${item.color} flex items-center justify-center text-white shadow-lg`}
               >
-                <div
-                  className={`h-14 w-14 rounded-full ${item.color} flex items-center justify-center text-white shadow-md`}
-                >
-                  <item.icon className="h-6 w-6" />
-                </div>
-                <p className="mt-3 text-sm font-medium text-slate-700">
-                  {item.title}
-                </p>
+                <item.icon className="h-6 w-6" />
               </div>
-            ))}
-          </div>
+              <p className="mt-2 text-sm font-medium text-slate-700">
+                {item.title}
+              </p>
+            </div>
+          ))}
         </div>
 
-        {/* Mobile fallback */}
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:hidden">
-          {items.map((item, idx) => (
+        {/* MOBILE GRID */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:hidden">
+          {items.map((item, i) => (
             <div
-              key={idx}
-              className="bg-white rounded-xl p-5 shadow-sm border border-slate-100 flex gap-4 items-start"
+              key={i}
+              className="bg-white rounded-xl p-5 shadow-sm border flex gap-4 items-center"
             >
               <div
                 className={`h-12 w-12 rounded-lg ${item.color} flex items-center justify-center text-white`}

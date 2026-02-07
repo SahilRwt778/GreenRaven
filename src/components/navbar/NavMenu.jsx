@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-// import { ChevronDown } from "lucide-react";
+// import { ChevronDown } from "lucide-react";  
 
 const NavMenu = () => {
   const linkClass = ({ isActive }) =>
     isActive
-      ? "text-black font-medium"
+      ? " font-medium  border-b-2 border-[#cc0033] p-2 text-[#cc0033]"
       : "text-gray-700 hover:text-black";
 
   return (
