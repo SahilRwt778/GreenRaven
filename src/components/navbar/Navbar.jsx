@@ -21,10 +21,11 @@ const Navbar = () => {
 
         <div className="hidden lg:block">
           <NavLink
-            to="/contact"
+            to='https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2JTFpFQQdaJA18Wtn4_kH1xqvrQNOHK8PNyfzVYi9G0GOk79bFVjbRLjViO-yV7DVZr_jcr58h'
+            target="_blank"
             className="bg-slate-900 text-white px-6 py-3 text-sm font-medium hover:bg-slate-800 transition"
           >
-            Request 
+            Schedule an Appointment 
           </NavLink>
         </div>
 
