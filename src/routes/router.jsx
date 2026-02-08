@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import MainLayout from "../layouts/MainLayout";
 
+import App from "../App";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Gallery from "../pages/Gallery";
@@ -12,7 +12,7 @@ import ProductsServices from "../pages/ProductsServices";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout />,
+    element: <App/>,
     errorElement: <NotFound />,
     children: [
       { index: true, element: <Home /> },

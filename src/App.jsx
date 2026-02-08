@@ -1,5 +1,13 @@
+import MainLayout from "./layouts/MainLayout";
+import ScrollToTop from "./utilities/ScrollToTop";
+
 const App = () => {
-  return null;
+  return (
+    <>
+      <ScrollToTop />
+      <MainLayout/>
+    </>
+  );
 };
 
 export default App;
