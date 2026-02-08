@@ -18,7 +18,7 @@ const ScrollContent = () => {
           {[...items, ...items].map((item, index) => (
             <span
               key={index}
-              className="shrink-0 bg-slate-100 px-4 py-4"
+              className="shrink-0 bg-slate-100 px-12 py-4"
             >
               {item}
             </span>
@@ -34,7 +34,7 @@ const ScrollContent = () => {
           }
         }
         .animate-marquee {
-          animation: marquee 45s linear infinite;
+          animation: marquee 35s linear infinite;
         }
       `}</style>
       </div>

@@ -116,7 +116,7 @@ const Footer = () => {
                             {/* Partner Logos Section (Mocked based on image brands) */}
                             <div className="mt-12 pt-8 border-t border-slate-800/50">
                                 <h4 className="text-xs font-bold tracking-widest text-slate-500 uppercase mb-6">Trusted Partners</h4>
-                                <div className="flex flex-wrap items-center justify-between gap-8 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+                                <div className="flex flex-wrap items-center justify-between gap-8 opacity-70 grayscale-0 transition-all duration-500">
                                     {/* Mock Text Logos using Fonts to mimic brands */}
                                     <div className="flex items-center gap-1 font-bold text-lg text-orange-500 tracking-tight">
                                         <div className="w-0 h-0 border-l-[6px] border-l-transparent border-b-[10px] border-b-orange-500 border-r-[6px] border-r-transparent"></div>
