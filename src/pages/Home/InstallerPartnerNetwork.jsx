@@ -3,14 +3,12 @@ import { Play } from "lucide-react";
 
 const InstallerPartenerNetwork = () => {
   return (
-    <section className=" py-20    px-6">
+    <section className=" py-8    px-6">
       <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-16 items-start">
 
         {/* LEFT SIDE */}
         <div>
-          
 
-          {/* Big Heading */} 
           {/* Big Heading */}
 <h2 className="text-4xl md:text-5xl text-[#cc0033] font-bold leading-[1.15] mb-6 tracking-tight">
   Installers

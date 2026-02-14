@@ -3,14 +3,14 @@ import { Play } from "lucide-react";
 
 const SalesStorySection = () => {
   return (
-    <section className=" py-15    px-6">
+    <section className=" py-2   px-6">
       <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-16 items-start">
 
         {/* LEFT SIDE */}
         <div>
           
 
-          {/* Big Heading */} <h2 className="text-4xl md:text-5xl font-bold leading-[1.15] mb-10 tracking-tight"> Sales Organizations <br /> Generate Growth. Build Trust.{" "} <span className="text-[#cc0033]">Dominate Markets.</span> </h2>
+          {/* Big Heading */} <h2 className="text-4xl md:text-5xl font-bold leading-[1.15] mb-10 tracking-tight"> Sales Organizations <br /> Generate Growth. Build Trust. {" "} <span className="text-[#cc0033]">Dominate Markets.</span> </h2>
 
           {/* Large Image */}
           <div className="rounded-2xl overflow-hidden">

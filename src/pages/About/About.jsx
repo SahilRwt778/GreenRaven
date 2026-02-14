@@ -2,15 +2,15 @@ import { IoArrowRedoSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import HowWeWork from "./HowWeWork";
-// import aboutVideo from "https://drive.google.com/file/d/1EdF2YlZT2DS6ar1l7TgVGAsEuKfHFLme/view";
+// import aboutVideo from "../../assets/videos/Promo video 1 for website.mp4";
 
 const About = () => {
-
   return (
-    <main className="w-full overflow-x-hidden mt-10">
+    <main className="w-full overflow-x-hidden pt-10 bg-[#eee] mt-18 ">
+    
       {/* ================= HERO ================= */}
-      <section className="w-full bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-18">
+      <section className="w-full  ">
+        <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-10 ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             {/* ================= LEFT CONTENT ================= */}
             <div className="">
@@ -61,10 +61,21 @@ const About = () => {
         </div>
       </section>
 
-
       {/* ================= HOW WE WORK ================= */}
 
       <HowWeWork />
+
+      {/* VIDEO */}
+      <section  className="relative w-full h-[70vh] md:h-[90vh] overflow-hidden">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="https://res.cloudinary.com/dal2cdpxb/video/upload/v1771053138/promoVideo_ugqm5i.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+      </section>
 
       {/* ================= CTA ================= */}
       <section className="bg-[#0B132B]">

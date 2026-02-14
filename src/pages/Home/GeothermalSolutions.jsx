@@ -1,12 +1,13 @@
 import React from "react";
+import solarImage2 from '../../assets/images/Solar2.jpg';
 
 const GeothermalSolutions = () => {
   return (
-    <section className="w-full py-8">
+    <section className="w-full  ">
       {/* Image Section */}
       <div className="relative w-full h-[420px]">
         <img
-          src="https://images.unsplash.com/photo-1468787737698-f5c03f0570dd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2VvdGhlcm1hbCUyMGVuZXJneXxlbnwwfHwwfHx8MA%3D%3D"
+          src="https://bikeyenerji.com/wp-content/uploads/2024/11/exploring-geothermal-energy-solutions-industri-generative-ai-scaled.jpg"
           alt="Residential Energy"
           className="w-full h-full object-cover"
         />

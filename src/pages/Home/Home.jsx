@@ -1,6 +1,5 @@
 import React from 'react';
 import solarImage1 from '../../assets/images/Solar1.jpg';
-import solarImage2 from '../../assets/images/Solar2.jpg';
 import transformerImage from '../../assets/images/transformer.jpg';
 import powerSupplyImg from '../../assets/images/powerSupply.jpg';
 import ResidentialEnergySection from './ResidentialEnergySection';
@@ -23,7 +22,7 @@ const Home = () => {
   {/* Background Image */}
   <div className="absolute inset-0">
     <img
-      src="https://media.istockphoto.com/id/1450272068/photo/wind-sun-and-water-energy.webp?a=1&b=1&s=612x612&w=0&k=20&c=YIuMY_oGbKmKIe3c5TCt-Y7gMrw1VA4cQMURfvdlipE="
+      src="https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/5a43bfd0-aa7f-4d1a-b99c-c78ae212a5c5/5.jpg"
       alt="Energy background"
       className="w-full h-full object-cover"
     />

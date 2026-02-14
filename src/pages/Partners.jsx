@@ -2,7 +2,7 @@ import React from 'react';
 
 const Partner = () => {
     return (
-        <div className="container mx-auto px-4 py-8 lg:py-16">
+        <div className="container mx-auto px-4 py-8 lg:py-16 mt-15">
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-24">
                 {/* Left Column */}
                 <div className="lg:w-1/2 flex flex-col relative">

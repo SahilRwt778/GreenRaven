@@ -2,7 +2,7 @@ import React from "react";
 
 const ResidentialEnergySection = () => {
   return (
-    <section className="w-full py-8">
+    <section className="w-full ">
       {/* Image Section */}
       <div className="relative w-full h-[420px]">
         <img

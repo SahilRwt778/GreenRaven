@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <button
-          className="lg:hidden text-[28px]"
+          className="lg:hidden text-white text-[28px]"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <IoClose /> : <IoMenu />}

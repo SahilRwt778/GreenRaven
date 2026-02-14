@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 
 const Hardware = () => {
   return (
-    <section className=" py-20    px-6">
+    <section className=" py-8   px-6">
       <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-16 items-start">
 
         {/* LEFT SIDE */}
