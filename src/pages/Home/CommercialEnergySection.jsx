@@ -51,27 +51,27 @@ const CommercialEnergySection = () => {
 
   <ul className="space-y-3 pt-2">
     <li className="flex items-start gap-3">
-      <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+      <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
       Fast turnaround times to prevent project bottlenecks
     </li>
 
     <li className="flex items-start gap-3">
-      <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+      <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
       Highly accurate, code-compliant structural and electrical designs
     </li>
 
     <li className="flex items-start gap-3">
-      <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+      <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
       Utility & AHJ-ready documentation prepared for smooth approvals
     </li>
 
     <li className="flex items-start gap-3">
-      <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+      <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
       Professional engineering stamps where required
     </li>
 
     <li className="flex items-start gap-3">
-      <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+      <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
       Ongoing revision support to resolve jurisdiction feedback
     </li>
   </ul>

@@ -10,7 +10,7 @@ const SalesStorySection = () => {
         <div>
           
 
-          {/* Big Heading */} <h2 className="text-4xl md:text-5xl font-bold leading-[1.15] mb-10 tracking-tight"> Sales Organizations <br /> Generate Growth. Build Trust. {" "} <span className="text-[#cc0033]">Dominate Markets.</span> </h2>
+          {/* Big Heading */} <h2 className="text-4xl md:text-5xl font-bold leading-[1.15] mb-10 tracking-tight"> Sales Organizations <br /> Generate Growth. Build Trust. {" "} <span className="text-green-600">Dominate Markets.</span> </h2>
 
           {/* Large Image */}
           <div className="rounded-2xl overflow-hidden">
@@ -52,17 +52,17 @@ const SalesStorySection = () => {
 {/* Feature List */}
 <ul className="space-y-3 text-gray-600 pt-2">
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     Nationwide sales support
   </li>
 
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     CRM software integrations
   </li>
 
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     Installer matchmaking services
   </li>
 </ul>

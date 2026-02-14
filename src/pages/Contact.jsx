@@ -11,7 +11,7 @@ const Contact = () => {
                         <h1 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
                             Contact Us
                         </h1>
-                        <div className="w-16 h-1 bg-red-600 mb-10"></div>
+                        <div className="w-16 h-1 bg-green-600 mb-10"></div>
 
                         <div className="text-slate-600 mb-8 leading-relaxed space-y-8">
                             <div>
@@ -28,7 +28,7 @@ const Contact = () => {
 
                             <div className="bg-slate-50 p-6 rounded-lg border border-slate-100">
                                 <p className="text-lg leading-relaxed">
-                                    Or better yet, please email us at <a href="mailto:info@gogreenraven.com" className="text-red-700 underline decoration-red-300 hover:text-red-800 font-medium">info@gogreenraven.com</a> or <a href="https://calendar.app.google/9qsvNemHcAkYwesn9" target="_blank" rel="noopener noreferrer" className="text-red-700 underline decoration-red-300 hover:text-red-800 font-medium">click here</a> to schedule a call with our staff.
+                                    Or better yet, please email us at <a href="mailto:info@gogreenraven.com" className="text-green-700 underline decoration-green-300 hover:text-green-800 font-medium">info@gogreenraven.com</a> or <a href="https://calendar.app.google/9qsvNemHcAkYwesn9" target="_blank" rel="noopener noreferrer" className="text-green-700 underline decoration-green-300 hover:text-green-800 font-medium">click here</a> to schedule a call with our staff.
                                 </p>
                             </div>
                         </div>

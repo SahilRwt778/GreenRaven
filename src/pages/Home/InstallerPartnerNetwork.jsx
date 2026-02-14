@@ -10,7 +10,7 @@ const InstallerPartenerNetwork = () => {
         <div>
 
           {/* Big Heading */}
-<h2 className="text-4xl md:text-5xl text-[#cc0033] font-bold leading-[1.15] mb-6 tracking-tight">
+<h2 className="text-4xl md:text-5xl text-green-600 font-bold leading-[1.15] mb-6 tracking-tight">
   Installers
 </h2>
 
@@ -62,28 +62,28 @@ Ensure Davis-Bacon compliance and certified payroll reporting confidence for you
 {/* Feature List */}
 <ul className="space-y-3 text-gray-600 pt-2">
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     Nationwide shipping at volume pricing
   </li>
 
   
 
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     Trusted US and international suppliers
   </li>
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     Nationwide installer partner network
   </li>
 
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     Project matchmaking services
   </li>
 
   <li className="flex items-start gap-3">
-    <span className="w-2 h-2 bg-[#cc0033] rounded-full mt-2"></span>
+    <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
     Volume pricing and exclusive access
   </li>
 </ul>

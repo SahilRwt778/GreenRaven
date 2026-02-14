@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 const NavMenu = () => {
   const linkClass = ({ isActive }) =>
     isActive
-      ? " font-medium  border-b-2 border-[#cc0033] p-2 text-[#cc0033]"
-      : "text-white hover:text-red-600";
+      ? " font-bold  border-b-2 border-green-600 p-2 text-green-600"
+      : "text-white hover:text-green-600";
 
   return (
-    <nav className="hidden lg:flex items-center gap-8 text-sm ">
+    <nav className="hidden lg:flex items-center gap-8 text-md  ">
       
       <NavLink to="/" className={linkClass}>
         Home

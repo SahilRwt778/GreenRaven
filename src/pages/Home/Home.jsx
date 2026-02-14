@@ -22,7 +22,7 @@ const Home = () => {
   {/* Background Image */}
   <div className="absolute inset-0">
     <img
-      src="https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/5a43bfd0-aa7f-4d1a-b99c-c78ae212a5c5/5.jpg"
+      src="https://static.dw.com/image/63632546_605.jpg"
       alt="Energy background"
       className="w-full h-full object-cover"
     />
@@ -36,7 +36,7 @@ const Home = () => {
     {/* Heading */}
     <h1 className="text-5xl md:text-6xl font-semibold leading-tight mb-6 text-white">
       Meeting the Energy Needs for <br />
-      <span className="text-[#cc0033]">Tomorrow</span>
+      <span className="text-green-600">Tomorrow</span>
     </h1>
 
     {/* Subtext */}

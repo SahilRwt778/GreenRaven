@@ -76,7 +76,7 @@ const About = () => {
           playsInline
         />
       </section>
-
+      
       {/* ================= CTA ================= */}
       <section className="bg-[#0B132B]">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-20 text-center">
@@ -86,7 +86,7 @@ const About = () => {
 
           <NavLink
             to="/contact"
-            className="group inline-flex items-center bg-red-700 px-8 py-3"
+            className="group inline-flex items-center bg-green-600 px-8 py-3"
           >
             <span className="text-white font-medium transition-transform group-hover:-translate-x-2">
               Contact Us

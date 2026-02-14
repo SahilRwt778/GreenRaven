@@ -58,7 +58,7 @@ const HowWeWork = () => {
               <div key={step.id} className="group">
                 <div className="flex items-start gap-6">
                   {/* ICON */}
-                  <div className="text-gray-500 text-xl mt-1 transition-all duration-300 group-hover:text-red-600 group-hover:scale-110">
+                  <div className="text-gray-500 text-xl mt-1 transition-all duration-300 group-hover:text-green-600 group-hover:scale-125">
                     {step.icon}
                   </div>
 
